@@ -1,0 +1,35 @@
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.child {
+  font-size: 40px;
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid white;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.child:nth-child(2) {
+  background-color: aqua;
+}
+.child:nth-child(3) {
+  background-color: rgb(230, 33, 79);
+}
+.child:nth-child(4) {
+  background-color: rgb(106, 34, 165);
+}
+.child:nth-child(5) {
+  background-color: rgb(212, 209, 32);
+}
+.child:nth-child(6) {
+  background-color: rgb(218, 102, 121);
+}
